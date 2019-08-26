@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- style CSS -->
+    <link rel="stylesheet" href="../../style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
+
+    <!-- Logo Icon Web -->
+    <link rel="icon" type="image/png" href="../../../icon/css-logo.png">
+
+    <title>background-clip | CSS-Code</title>
+</head>
+
+<body>
+
+    <!-- Awal Header -->
+    <div class="header" id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col content-header">
+                    <ul>
+                        <li><a href="../../../Materi/kumpulancss/kumpulancss.html"><span>Kumpulan CSS</span> /</a></li>
+                        <li><a href="../../../Materi/kumpulancss/kumpulancss.html"><span>Properties</span> /</a></li>
+                        <li><a href="../../../Materi/kumpulancss/kumpulancss.html#element-B"><span>B</span></a></li>
+                    </ul>
+                    <h2>background-clip</h2>
+                    <h5>(CSS : Properties)</h5>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Header -->
+
+    <!--Awal content -->
+    <div class="content" id="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 content-isi mt-5">
+                    <p>background-clip memungkinkan anda mengontrol seberapa jauh gambar atau warna latar belakang
+                        melampaui lapisan atau konten elemen.</p>
+                </div>
+            </div>
+
+            <div class="row content-syntax mt-0">
+                <div class="col-md-8">
+                    <div class="syntax">
+                        <span>CSS</span>
+                        <div class="isi-syntax">
+                            <span>.frame {</span>
+                            <p>background-clip : <span>padding-box</span> ;
+                            </p>
+                            <span>}</span><br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row content-isi mt-5">
+                <div class="col-md-8">
+                    <h2 class="mb-4"><span class="hastag">#</span> Value</h2>
+                    <ul>
+                        <li>
+                            <span> <span class="text-danger"> border-box</span> adalah nilai default. Ini memungkinkan
+                                latar
+                                belakang untuk meluas sampai ke tepi luar dari batas elemen.</span>
+                        </li>
+                        <li>
+                            <span> <span class="text-danger"> padding-box</span> klip latar belakang di tepi luar
+                                padding elemen dan tidak membiarkannya meluas ke perbatasan.</span>
+                        </li>
+                        <li>
+                            <span> <span class="text-danger"> content-box</span> klip latar belakang di tepi kotak
+                                konten.</span>
+                        </li>
+                        <li>
+                            <span> <span class="text-danger"> inherit</span> menerapkan pengaturan klip latar belakang
+                                dari
+                                induk ke elemen yang dipilih.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="row content-demo">
+                <div class="col-md-8">
+                    <h2><span class="hastag">#</span> Demo</h2>
+                    <p class="mt-3">Dalam demo pertama, setiap div memiliki satu paragraf di dalamnya. Paragraf adalah
+                        konten div. Setiap div memiliki latar belakang merah dan 5 piksel, batas abu-abu muda
+                        semi-transparan.</p>
+                    <p class="codepen" data-height="300" data-theme-id="36587" data-default-tab="html,result"
+                        data-user="fahmi_ariq" data-slug-hash="vMddjm"
+                        style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;"
+                        data-pen-title="background-clip">
+                        <span>See the Pen <a href="https://codepen.io/fahmi_ariq/pen/vMddjm/">
+                                background-clip</a> by Fahmi Ariq (<a
+                                href="https://codepen.io/fahmi_ariq">@fahmi_ariq</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                    </p>
+                    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Content -->
+
+    <!-- Awal footer -->
+    <footer>
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-sm-12">
+                    <hr>
+                    <p class="copyright">© Copyright 2019 | Design by Fahmi Ariq</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+</body>
+
+</html>

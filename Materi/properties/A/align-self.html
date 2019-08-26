@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- style CSS -->
+    <link rel="stylesheet" href="../../style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
+
+    <!-- Logo Icon Web -->
+    <link rel="icon" type="image/png" href="../../../icon/css-logo.png">
+
+    <title>Align-Self | CSS-Code</title>
+</head>
+
+<body>
+
+    <!-- Awal Header -->
+    <div class="header" id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col content-header">
+                    <ul>
+                        <li><a href="../../../Materi/kumpulancss/kumpulancss.html"><span>Kumpulan CSS</span> /</a></li>
+                        <li><a href="../../../Materi/kumpulancss/kumpulancss.html"><span>Properties</span> /</a></li>
+                        <li><a href="../../../Materi/kumpulancss/kumpulancss.html#element-A"><span>A</span></a></li>
+                    </ul>
+                    <h2>align-self</h2>
+                    <h5>(CSS : Properties)</h5>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Header -->
+
+    <!--Awal content -->
+    <div class="content" id="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 content-isi mt-5">
+                    <p>Itu memungkinkan untuk mengesampingkan nilai align-item untuk item fleksibel tertentu.</p>
+                    <p>Properti align-self menerima 5 nilai yang sama dengan align-item:</p>
+                    <ul>
+                        <li><span><b class="text-danger">flex-start</b> : batas mulai sumbu awal tepi dari item
+                                ditempatkan
+                                pada garis awal </span>
+                        </li>
+                        <li><span><b class="text-danger">flex-end</b> : batas mulai sumbu awal tepi dari item
+                                ditempatkan
+                                pada garis akhir.</span>
+                        </li>
+                        <li><span><b class="text-danger">center</b> : item dipusatkan pada sumbu silang. </span>
+                        </li>
+                        <li><span><b class="text-danger">baseline</b> : item disejajarkan seperti garis belakang mereka
+                                disejajarkan.</span>
+                        </li>
+                        <li><span><b class="text-danger">stretch</b> (default) : regangkan untuk mengisi wadah (masih
+                                mengikuti lebar minimum / lebar maks).</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row content-syntax">
+                <div class="col-md-8">
+                    <h2><span class="hastag">#</span> Syntax</h2>
+                    <div class="syntax">
+                        <span>CSS</span>
+                        <div class="isi-syntax">
+                            <p class="value">align-self : flex-start | flex-end | center | baseline | stretch </p>
+                            <span>.flex-item {</span>
+                            <p>align-self : <span>flex-start</span> ;</p>
+                            <p>align-self : <span>flex-end</span> ;</p>
+                            <p>align-self : <span>center</span> ;</p>
+                            <p>align-self : <span>baseline</span> ;</p>
+                            <p>align-self : <span>stretch</span> ;</p>
+                            <span>}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row content-demo">
+                <div class="col-md-8 isi-demo">
+                    <h2 class="mb-4"><span class="hastag">#</span> Demo</h2>
+                    <p>Demo berikut menunjukkan bagaimana suatu item dapat menyelaraskan dirinya dalam wadah fleksibel
+                        tergantung pada
+                        nilai align-selfnya : </p>
+                    <ul>
+                        <li><span>Item pertama diatur menjadi <b class="text-danger">flex-start</b></span></li>
+                        <li><span>Item kedua diatur menjadi <b class="text-danger">flex-end</b></span></span></li>
+                        <li><span>Item ketiga diatur menjadi <b class="text-danger">center</b></span></span></li>
+                        <li><span>Item keempat diatur menjadi <b class="text-danger">baseline</b></span></span></li>
+                        <li class="mb-4" pan>Item kelima diatur menjadi <b class="text-danger">stretch</b></span></span>
+                        </li>
+                    </ul>
+
+                    <p class="codepen" data-height="300" data-theme-id="36587" data-default-tab="css,result"
+                        data-user="fahmi_ariq" data-slug-hash="QPabdz"
+                        style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;"
+                        data-pen-title="align-self">
+                        <span>See the Pen <a href="https://codepen.io/fahmi_ariq/pen/QPabdz/">
+                                align-self</a> by Fahmi Ariq (<a href="https://codepen.io/fahmi_ariq">@fahmi_ariq</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                    </p>
+                    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Content -->
+
+
+
+    <!-- Awal footer -->
+    <footer>
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-sm-12">
+                    <hr>
+                    <p class="copyright">© Copyright 2019 | Design by Fahmi Ariq</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+</body>
+
+</html>

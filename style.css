@@ -1,0 +1,792 @@
+body {
+    background-color: #100E17;
+}
+
+/*css3 design scrollbar*/
+::-webkit-scrollbar {
+    width: 13px;
+    border-radius: 10px !important;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3);
+    background: rgb(10, 10, 10);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #C82333;
+    border-radius: 10px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img-content/nikita-kachanovsky-445394-unsplash.jpg);
+    background-size: cover;
+    height: 650px;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 999;
+}
+
+.jumbotron::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, 0));
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-shadow: 1 px 1px 0px rgba(0, 0, 0, 0.7);
+    margin-top: 80px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: bold;
+}
+
+.jumbotron p {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}
+
+.jumbotron hr {
+    border-bottom: 3px solid #C82333;
+    width: 15%;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-family: viga;
+    font-size: 25px;
+    color: #C82333 !important;
+}
+
+.navbar-brand img {
+    width: 45px;
+}
+
+.navbar {
+    background-color: rgb(10, 10, 10);
+    transition: 0.5s;
+    position: fixed;
+}
+
+.nav-link {
+    margin-right: 15px;
+    color: #C82333 !important;
+    font-weight: 300;
+    font-family: viga;
+}
+
+.navbar-toggler {
+    background-color: #C82333 !important;
+    border: 1px solid grey;
+}
+
+.navbar.scrolled {
+    background: rgb(10, 10, 10) !important;
+    transition: 0.5s;
+}
+
+
+/* utility */
+.tombol {
+    color: aliceblue !important;
+    font-weight: 500;
+}
+
+.findoutmore {
+    border-radius: 30px;
+    width: 180px;
+    height: 60px;
+    padding: 17px;
+    color: white !important;
+    background-color: rgb(196, 19, 36);
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.started {
+    border-radius: 30px;
+    width: 180px;
+    height: 55px;
+    padding: 17px;
+    color: black !important;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* About */
+.about {
+    font-family: viga;
+    background-color: rgb(196, 19, 36);
+    margin-top: -32px !important;
+    min-height: 700px;
+    color: beige !important;
+}
+
+.about h2 {
+    margin-top: 80px;
+    font-size: 25px;
+}
+
+.about p {
+    font-size: 15px;
+    font-weight: 100;
+    text-align: justify;
+    color: antiquewhite;
+}
+
+.about hr {
+    border-bottom: 4px solid white;
+    width: 9%;
+}
+
+
+/* Component */
+.component {
+    background-image: url(img-content/annie-spratt-608001-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+    font-family: Viga;
+    padding: 15px;
+}
+
+.component .container {
+    position: relative;
+    z-index: 1;
+}
+
+.component::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6));
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.component h2 {
+    margin-top: 30px;
+    margin-bottom: -10px;
+    font-size: 28px;
+}
+
+.component h3 {
+    font-size: 22px;
+}
+
+.component hr {
+    border-bottom: 4px solid #C82333;
+    width: 10%;
+    margin-bottom: 40px !important;
+}
+
+.component a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.component img {
+    border-radius: 10px;
+    width: 80px;
+}
+
+
+/* Materi */
+.materi {
+    font-family: Viga;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.materi hr {
+    border-bottom: 4px solid rgb(200, 35, 51);
+    width: 15%;
+    margin-bottom: 40px !important;
+}
+
+.materi h2 {
+    margin-top: 50px;
+}
+
+.materi .box {
+    margin-top: 30px !important;
+    text-decoration: none;
+}
+
+.materi a span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 150px;
+    font-size: 39px;
+    background-color: rgb(196, 19, 36);
+    position: absolute;
+    top: 0px;
+    opacity: 1;
+    text-shadow: 0px 0px 2px black;
+    color: grey;
+    text-align: center;
+}
+
+.materi a span p {
+    font-size: 19px;
+    color: white;
+    margin-top: -100px;
+}
+
+
+/* Quiz Space */
+.quiz-space {
+    margin-top: 140px;
+    text-align: center;
+}
+
+.quiz-space h1 {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 42px;
+    margin: 20px 0;
+    color: grey;
+}
+
+.quiz-space p {
+    font-size: 16px;
+    color: #e4e4e4;
+    margin: 20px 0px;
+}
+
+.quiz-space h1 span {
+    font-weight: bold;
+    color: #C82333;
+}
+
+.quiz-space img {
+    box-shadow: 0px 0px 20px #C82333;
+    border-radius: 20px;
+    width: 60%;
+}
+
+
+/* Testimonial */
+.testimonial {
+    margin-top: 70px;
+    color: #e4e4e4;
+}
+
+.testimonial h5 {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.testimonial .figure h4 {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #e4e4e4;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+.testimonial .figure p {
+    font-size: 11px;
+    margin-top: -5px;
+    text-align: center;
+    color: #e4e4e4;
+}
+
+.testimonial .figure img {
+    width: 70px;
+    margin: 0 10px;
+}
+
+
+/* Footer */
+footer hr {
+    width: 90%;
+    border: 1px solid #C82333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 60px #C82333;
+}
+
+.copyright {
+    color: #777;
+    text-align: center;
+    margin: 15px;
+    font-size: 15px;
+    font-family: viga;
+}
+
+.copyright:hover {
+    color: #C82333;
+    text-align: center;
+}
+
+/********************/
+/* DEKSTOP VERSION */
+/********************/
+@media (min-width: 992px) {
+
+    /* NAVBAR */
+    .nav-link {
+        color: white !important;
+    }
+
+    .nav-link,
+    .tombol {
+        margin-right: 15px;
+        text-transform: uppercase;
+    }
+
+    .navbar-brand {
+        font-size: 30px !important;
+        color: #C82333 !important;
+    }
+
+    .navbar-brand img {
+        width: 55px;
+    }
+
+    .navbar-brand:hover {
+        color: white !important;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #C82333;
+        width: 70%;
+        margin: auto;
+        padding-bottom: 3px;
+        margin-bottom: -6px;
+    }
+
+    .navbar.scrolled {
+        background: #100E17 !important;
+        transition: 0.5s;
+    }
+
+    .navbar {
+        transition: 0.5s;
+        position: fixed;
+        background: transparent !important;
+    }
+
+
+    /* Jumbotron */
+    .jumbotron {
+        background-position: 0px -170px;
+        height: 695px;
+    }
+
+    .jumbotron .display-4 {
+        font-weight: bold;
+        font-size: 58px;
+        text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+    }
+
+    .jumbotron p {
+        font-size: 19px;
+        text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+    }
+
+    /* utiity */
+    .tombol {
+        border-radius: 30px;
+        border: 2px solid #C82333;
+        background-color: transparent;
+        box-shadow: 0px 0px 10px #C82333;
+        width: 110px;
+        padding: 4px;
+        margin: auto;
+        font-family: viga;
+    }
+
+    .tombol:hover {
+        background-color: #C82333;
+    }
+
+    .findoutmore {
+        margin-top: 60px;
+        font-size: 14px;
+    }
+
+
+    /* About */
+    .about {
+        padding: 5px !important;
+        font-family: viga;
+        background-color: rgb(196, 19, 36);
+    }
+
+    .about h2 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    .about hr {
+        border-bottom: 4px solid white;
+        width: 9%;
+    }
+
+
+    /* Component */
+    .component {
+        padding: 40px;
+        height: 620px;
+    }
+
+    .component::after {
+        background-image: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0, 0, 0, .5));
+    }
+
+    .component h2 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .component h3 {
+        font-size: 25px;
+    }
+
+    .component hr {
+        border-bottom: 4px solid #C82333;
+        width: 6%;
+        margin-bottom: 80px !important;
+    }
+
+    .component a:hover h3 {
+        color: #C82333 !important;
+    }
+
+    .component img {
+        width: 100px;
+    }
+
+
+    /* Materi */
+    .materi {
+        padding: 130px;
+        height: 580px;
+        font-family: Viga;
+    }
+
+    .materi hr {
+        border-bottom: 4px solid #C82333;
+        width: 6%;
+        margin-bottom: 40px !important;
+    }
+
+    .materi h2 {
+        margin-top: -50px;
+    }
+
+    .materi img {
+        box-shadow: 0px 0px 10px #C82333;
+        border-radius: 10px;
+    }
+
+    .materi a span {
+        display: block;
+        width: 100%;
+        height: 100%;
+        line-height: 150px;
+        padding: 20px;
+        background-color: rgba(248, 3, 3, 0.833);
+        position: absolute;
+        top: 0px;
+        opacity: 0;
+        text-shadow: 0px 0px 2px black;
+    }
+
+    .materi a span p {
+        font-size: 23px;
+        color: white;
+        margin-top: -60px;
+    }
+
+    .materi a:hover span {
+        opacity: 1;
+        transition: .7s;
+        text-align: center;
+        color: #858585;
+        font-size: 60px;
+        font-family: viga;
+        border-radius: 10px;
+    }
+
+
+    /* Working Space */
+    .quiz-space {
+        text-align: left;
+        margin-bottom: 130px;
+        height: 530px;
+    }
+
+    .quiz-space .container {
+        padding-top: 120px;
+    }
+
+    .quiz-space h1 {
+        text-transform: uppercase;
+        font-weight: 200;
+        font-size: 52px;
+    }
+
+    .quiz-space p {
+        font-size: 18px;
+        margin: 25px 0px;
+    }
+
+    .quiz-space h1 span {
+        font-weight: bold;
+    }
+
+    .quiz-space img {
+        box-shadow: 0px 0px 20px #C82333;
+        border-radius: 10px;
+        width: 90%;
+    }
+
+
+    /* Testimonial */
+    .testimonial {
+        min-height: 300px !important;
+    }
+
+    .testimonial h5 {
+        font-size: 25px;
+        font-weight: 100 !important;
+        color: beige;
+        font-weight: 300;
+        font-style: italic;
+        margin-bottom: 40px;
+    }
+
+    .testimonial .figure h4 {
+        font-size: 14px;
+        color: beige;
+        font-weight: bold;
+    }
+
+    .testimonial .figure p {
+        font-size: 11px;
+        margin-top: -10px;
+        color: beige;
+    }
+
+    .testimonial .figure img {
+        width: 85px;
+    }
+
+    /* Footer */
+    footer hr {
+        width: 70%;
+        border-bottom: 4px solid #C82333;
+        box-shadow: 0px 0px 3px #C82333;
+    }
+
+    .copyright {
+        font-size: 15px;
+    }
+
+}
+
+
+/******************************/
+/* SMARTPHONE, TABLET VERSION */
+/******************************/
+@media (max-width: 575.98px) {
+
+    /* Jumbotron */
+    .jumbotron {
+        height: 530px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 30px;
+        margin-top: 90px;
+    }
+
+    .jumbotron p {
+        font-size: 13px;
+    }
+
+
+    /* utility */
+    .findoutmore {
+        width: 150px;
+        height: 50px;
+        padding: 15px;
+        margin-top: 30px;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .started {
+        border-radius: 30px;
+        width: 140px;
+        height: 50px;
+        line-height: 15px;
+        color: black;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+
+    /* About */
+    .about {
+        margin-top: -32px !important;
+        padding: 20px;
+        background-color: rgb(196, 19, 36);
+        min-height: 1000px;
+    }
+
+    .about h2 {
+        margin-top: 50px;
+        font-size: 22px;
+    }
+
+    .about p {
+        font-size: 13px;
+    }
+
+    .about hr {
+        border-bottom: 3px solid white;
+        width: 15%;
+    }
+
+
+    /* Component */
+    .component h2 {
+        margin-top: 30px;
+        margin-bottom: -10px;
+        font-size: 25px;
+    }
+
+    .component h3 {
+        font-size: 19px;
+    }
+
+    .component hr {
+        border-bottom: 4px solid #C82333;
+        width: 20%;
+        margin-bottom: 40px !important;
+    }
+
+    .component a {
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+    .component img {
+        border-radius: 10px;
+        width: 60px;
+    }
+
+    /* Materi */
+    .materi h2 {
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    .materi .box {
+        text-decoration: none;
+    }
+
+    .materi a span {
+        font-size: 40px;
+        min-height: 200px;
+        background-color: rgb(196, 19, 36);
+        opacity: 1;
+        text-shadow: 0px 0px 2px black;
+        text-align: center;
+    }
+
+    .materi a span p {
+        font-size: 15px;
+        color: white;
+    }
+
+    /* Working Space */
+    .quiz-space {
+        margin-top: 180px;
+        padding: 20px;
+    }
+
+    .quiz-space img {
+        box-shadow: 0px 0px 5px #C82333;
+        border-radius: 10px;
+        width: 80%;
+    }
+
+    .quiz-space h1 {
+        font-size: 28px;
+    }
+
+    .quiz-space p {
+        font-size: 12px;
+        margin: 20px 0px;
+    }
+
+
+    /* testimonial */
+    .testimonial {
+        padding: 5px;
+    }
+
+    .testimonial h5 {
+        font-size: 14px;
+    }
+
+    .testimonial .figure img {
+        width: 50px;
+        margin: 0 10px;
+    }
+
+    /*Video Screen*/
+    .modal-dialog {
+        margin: auto;
+    }
+
+    /* Footer */
+    .copyright {
+        font-size: 11px;
+    }
+}

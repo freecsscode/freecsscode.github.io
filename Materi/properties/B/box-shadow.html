@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- style CSS -->
+    <link rel="stylesheet" href="../../style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
+
+    <!-- Logo Icon Web -->
+    <link rel="icon" type="image/png" href="../../../icon/css-logo.png">
+
+    <title>box-shadow | CSS-Code</title>
+</head>
+
+<body>
+
+    <!-- Awal Header -->
+    <div class="header" id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col content-header">
+                    <ul>
+                        <li><a href="../../../Materi/kumpulancss/kumpulancss.html"><span>Kumpulan CSS</span> /</a></li>
+                        <li><a href="../../../Materi/kumpulancss/kumpulancss.html"><span>Properties</span> /</a></li>
+                        <li><a href="../../../Materi/kumpulancss/kumpulancss.html#element-B"><span>B</span></a></li>
+                    </ul>
+                    <h2>box-shadow</h2>
+                    <h5>(CSS : Properties)</h5>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Header -->
+
+    <!--Awal content -->
+    <div class="content" id="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 content-isi mt-5">
+                    <p> Properti box-shadow melampirkan satu atau lebih bayangan ke suatu elemen.</p>
+                </div>
+            </div>
+
+            <div class="row content-syntax">
+                <div class="col-md-8">
+                    <h2><span class="hastag">#</span> Syntax</h2>
+                    <div class="syntax">
+                        <span>CSS</span>
+                        <div class="isi-syntax">
+                            <span>.contoh {</span>
+                            <p>box-shadow : <span>5px 10px</span> ;</p>
+                            <p>box-shadow : <span>5px 10px red</span> ;</p>
+                            <p>box-shadow : <span>5px 5px 5px rgba(68, 68, 68, 0.6);</span> ;</p>
+                            <span>}</span><br><br>
+
+                            <p>box-shadow : <span>[batas horizontal] [batas vertikal] [blur radius] [warna]</span> ;</p>
+                        </div>
+                    </div>
+                    <ol type="1" class="mid-text mt-5">
+                        <li>
+                            Offset horizontal (diperlukan) bayangan, positif berarti bayangan akan berada di sebelah
+                            kanan kotak, offset negatif akan menempatkan bayangan di sebelah kiri kotak</li>
+                        <li>Offset vertikal (diperlukan) dari bayangan, yang negatif berarti bayangan kotak akan berada
+                            di atas kotak, yang positif berarti bayangan akan berada di bawah kotak.</li>
+                        <li>Radius blur (diperlukan), jika diatur ke 0 bayangan akan tajam, semakin tinggi angkanya,
+                            semakin kabur bayangan itu, dan semakin jauh bayangan akan meluas. Misalnya bayangan dengan
+                            5px
+                            horizontal offset yang juga memiliki radius blur 5px akan menjadi 10px total bayangan.
+                        </li>
+                        <li>Warna (wajib) - mengambil nilai warna apa pun, seperti hex, named, rgba, atau hsla. Jika
+                            nilai warna dihilangkan, bayangan kotak diambil dalam warna latar depan (warna teks). Namun
+                            perlu diperhatikan, browser WebKit yang lebih lama (sebelum Chrome 20 dan Safari 6)
+                            mengabaikan
+                            aturan ketika warna dihilangkan.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="row content-demo">
+                <div class="col-md-8">
+                    <h2><span class="hastag">#</span> Demo</h2>
+                    <p class="codepen" data-height="400" data-theme-id="36587" data-default-tab="html,result"
+                        data-user="fahmi_ariq" data-slug-hash="YMLyPN"
+                        style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;"
+                        data-pen-title="box-shadow">
+                        <span>See the Pen <a href="https://codepen.io/fahmi_ariq/pen/YMLyPN/">
+                                box-shadow</a> by Fahmi Ariq (<a href="https://codepen.io/fahmi_ariq">@fahmi_ariq</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                    </p>
+                    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Content -->
+
+
+    <!-- Awal footer -->
+    <footer>
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-sm-12">
+                    <hr>
+                    <p class="copyright">© Copyright 2019 | Design by Fahmi Ariq</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+</body>
+
+</html>

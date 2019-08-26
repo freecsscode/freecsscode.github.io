@@ -1,0 +1,278 @@
+/* header */
+header {
+    margin-top: 40px;
+    background-color: #C82333;
+    border-radius: 5px;
+    padding: 10px;
+    width: 71.5%;
+    font-family: viga;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+/* Kuis Container */
+.quizContainer {
+    background-color: #eee;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* Button */
+.nextButton {
+    background-color: #C82333;
+    width: 130px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+/* Option Jawaban */
+li {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    list-style: upper-alpha;
+    text-align: left;
+    margin-left: 12%;
+}
+
+input[type=radio] {
+    opacity: 0;
+    cursor: pointer;
+}
+
+input[type=radio]+label {
+    color: #000;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+input[type=radio]:checked+label {
+    color: #C82333;
+    transition: .2s ease-in-out;
+}
+
+/* Pertanyaan */
+.question {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    width: 90%;
+    margin-left: 7%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+
+/* Pesan Peringatan */
+.quizMessage {
+    background-color: peachpuff;
+    border-radius: 6px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: red;
+}
+
+.result {
+    width: 50%;
+    margin-top: 50px;
+    height: auto;
+    font-size: 25px;
+    border-radius: 6px;
+    background-color: linen;
+    margin: auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 25px;
+}
+
+/* Footer */
+footer hr {
+    width: 70%;
+    border: 3px solid #C82333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #C82333;
+    margin-top: 45px;
+}
+
+.copyright {
+    color: #777;
+    text-align: center;
+    font-size: 15px;
+    font-family: viga;
+}
+
+.copyright:hover {
+    color: #C82333;
+}
+
+/********************/
+/* DEKSTOP VERSION */
+/********************/
+@media (min-width: 992px) {
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+
+    /* Kuis Container */
+    .quizContainer {
+        width: 74.5%;
+        padding-top: 5px;
+    }
+
+
+    /* Button */
+    .nextButton {
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    /* Option Jawaban */
+    li {
+        font-size: 1.5em;
+        margin-left: 12%;
+    }
+
+    /* Pertanyaan */
+    .question {
+        font-size: 1.5em;
+        margin-left: 7%;
+    }
+
+
+    /* Pesan Peringatan */
+    .quizMessage {
+        background-color: peachpuff;
+        border-radius: 6px;
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: -35px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        color: red;
+    }
+
+    .result {
+        width: 50%;
+        margin-top: 50px;
+        height: auto;
+        font-size: 25px;
+        border-radius: 6px;
+        background-color: linen;
+        margin: auto;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 25px;
+    }
+
+    /* Footer */
+    footer hr {
+        width: 70%;
+        border: 3px solid #C82333;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px #C82333;
+        margin-top: 45px;
+    }
+
+    .copyright {
+        color: #777;
+        text-align: center;
+        font-size: 15px;
+        font-family: viga;
+    }
+
+    .copyright:hover {
+        color: #C82333;
+    }
+}
+
+/******************************/
+/* SMARTPHONE, TABLET VERSION */
+/******************************/
+@media (max-width: 575.98px) {
+    body {
+        padding: 10px;
+    }
+
+    /* Header */
+    header {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    header h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    /* Kuis Container */
+    .quizContainer {
+        background-color: #ffffff;
+        width: 100%;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+
+    /* Option Jawaban */
+    li {
+        margin-left: 9%;
+        font-size: 1.2em;
+    }
+
+    /* Pertanyaan */
+    .question {
+        font-size: 1.2em;
+        margin-left: 0px;
+        text-align: justify;
+    }
+
+
+    /* Footer */
+    footer hr {
+        width: 70%;
+        border: 2px solid #C82333;
+        border-radius: 10px;
+        box-shadow: 0px 0px 2px #C82333;
+    }
+
+    .copyright {
+        font-size: 13px;
+    }
+
+    .copyright:hover {
+        color: #C82333;
+    }
+
+    /* Pesan Peringatan */
+    .quizMessage {
+        width: 60%;
+        margin-top: 20px;
+        margin-bottom: -40px;
+        font-size: 15px;
+    }
+
+    .result {
+        width: 80%;
+        margin-top: 60px;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    /* Button */
+    .nextButton {
+        width: 100px;
+        font-weight: 600;
+        font-size: 0.9em;
+    }
+}

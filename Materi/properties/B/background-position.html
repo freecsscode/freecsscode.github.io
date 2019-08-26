@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- style CSS -->
+    <link rel="stylesheet" href="../../style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
+
+    <!-- Logo Icon Web -->
+    <link rel="icon" type="image/png" href="../../../icon/css-logo.png">
+
+    <title>background-position | CSS-Code</title>
+</head>
+
+<body>
+
+    <!-- Awal Header -->
+    <div class="header" id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col content-header">
+                    <ul>
+                        <li><a href="../../../Materi/kumpulancss/kumpulancss.html"><span>Kumpulan CSS</span> /</a></li>
+                        <li><a href="../../../Materi/kumpulancss/kumpulancss.html"><span>Properties</span> /</a></li>
+                        <li><a href="../../../Materi/kumpulancss/kumpulancss.html#element-B"><span>B</span></a></li>
+                    </ul>
+                    <h2>background-position</h2>
+                    <h5>(CSS : Properties)</h5>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Header -->
+
+    <!--Awal content -->
+    <div class="content" id="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 content-isi mt-5">
+                    <p>Properti posisi latar belakang di CSS memungkinkan Anda untuk memindahkan gambar latar belakang
+                        (atau gradien) di dalam wadahnya.</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row content-syntax text-justify">
+                <div class="col-md-8">
+                    <h2><span class="hastag">#</span> Syntax</h2>
+                    <div class="syntax">
+                        <span>CSS</span>
+                        <div class="isi-syntax">
+                            <span>html {</span>
+                            <p>background-position : <span style="color: #FF8A00">100</span><span>px</span>
+                                <span style="color: #FF8A00">5</span><span>px</span> ;</p>
+                            <span>}</span>
+                        </div>
+                    </div>
+                    <p class="mt-3 mid-text"> Ini memiliki tiga jenis nilai:</p>
+                    <ul class="mid-text">
+                        <li><span>Nilai Panjangnya (e.g. 100px 5px)</span></li>
+                        <li><span>persentase (e.g. 100% 5%)</span></li>
+                        <li><span>Kata Kuncinya (e.g. top right)</span></li>
+                    </ul>
+                    <p class="mt-2 mid-text">Nilai defaultnya adalah 0 0. Ini menempatkan gambar latar
+                        belakang Anda di kiri atas wadah.</p>
+                    <p class="mid-text">Nilai panjangnya cukup sederhana: nilai pertama adalah posisi
+                        horizontal, nilai kedua adalah posisi vertikal. Jadi 100px 5px akan memindahkan gambar 100px ke
+                        kanan dan lima piksel ke bawah. Anda dapat mengatur nilai panjang dalam px, em, atau nilai
+                        panjang CSS lainnya.</p>
+                    <p class="mid-text">Persentase bekerja sedikit berbeda. Dapatkan topi matematika Anda:
+                        memindahkan gambar latar belakang sebesar X% berarti itu akan menyelaraskan titik X% dalam
+                        gambar ke titik X% dalam wadah. Misalnya, 50% berarti akan menyelaraskan bagian tengah gambar
+                        dengan bagian tengah wadah. 100% berarti akan menyelaraskan piksel terakhir gambar dengan piksel
+                        terakhir wadah, dan seterusnya.</p>
+                    <p class="mb-3 mid-text">Kata kunci hanyalah pintasan untuk persentase. Lebih mudah
+                        untuk mengingat dan menulis atas kanan daripada 100% 0, dan itulah sebabnya kata kunci adalah
+                        sesuatu. Berikut adalah daftar kelima kata kunci dan nilai-nilai yang setara :</p>
+                    <ul class="mid-text">
+                        <li><span>Atas: 0% vertikal semua</span></li>
+                        <li><span>kanan: 100% secara horizontal</span></li>
+                        <li><span>bawah: 100% secara vertikal</span></li>
+                        <li><span>kiri: 0% secara horizontal</span></li>
+                        <li><span>pusat: 50% horizontal jika horizontal belum ditentukan. Jika
+                                ya maka ini diterapkan secara vertikal.</span></li>
+                    </ul>
+                    <p class="mt-3 mid-text">Sangat menarik untuk dicatat bahwa tidak masalah urutan apa
+                        yang Anda gunakan untuk kata kunci: tengah atas sama dengan tengah atas. Anda hanya dapat
+                        melakukan ini jika Anda menggunakan kata kunci secara eksklusif. pusat 10% tidak sama dengan
+                        pusat 10%.</p>
+                </div>
+            </div>
+
+            <div class="row content-demo">
+                <div class="col-md-8">
+                    <h2><span class="hastag">#</span> Demo</h2>
+                    <p class="codepen" data-height="300" data-theme-id="36587" data-default-tab="css,result"
+                        data-user="fahmi_ariq" data-slug-hash="KYooqj"
+                        style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;"
+                        data-pen-title="KYooqj">
+                        <span>See the Pen <a href="https://codepen.io/fahmi_ariq/pen/KYooqj/">
+                                KYooqj</a> by Fahmi Ariq (<a href="https://codepen.io/fahmi_ariq">@fahmi_ariq</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                    </p>
+                    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Content -->
+
+    <!-- Awal footer -->
+    <footer>
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-sm-12">
+                    <hr>
+                    <p class="copyright">© Copyright 2019 | Design by Fahmi Ariq</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+</body>
+
+</html>
